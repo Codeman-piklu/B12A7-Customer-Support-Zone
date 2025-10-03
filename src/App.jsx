@@ -26,7 +26,7 @@ function App() {
         resolvedTickets={resolvedTickets}
         setResolvedTickets={setResolvedTickets}
       />
-      <Footer />
+      
       <ToastContainer />
     </>
   );

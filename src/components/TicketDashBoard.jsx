@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-
+import TicketCard from './TicketCard';
+import TaskCard from './TaskCard';
 import { toast } from 'react-toastify'; 
 
 const TicketDashboard = ({ inProgressTickets, setInProgressTickets, resolvedTickets, setResolvedTickets }) => {
